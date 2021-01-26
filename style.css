@@ -1,0 +1,39 @@
+/* https://docs.stacker.app/customizing-your-app/features/custom-css */
+
+.stk-page-header {
+  background-color: black;
+  background-image: none;
+}
+
+/* For body */
+.stk-text {
+  font-family: "Open Sans", "Helvetica", "sans-serif";
+}
+
+/* For headers*/
+.stk-text-listHeaderTitle,
+.stk-text-listHeaderDesc {
+  font-family: "Gilroy", "Helvetica", "sans-serif";
+}
+
+.stk-button {
+  font-family: "Gilroy", "Helvetica", "sans-serif";
+  font-weight: 800;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+  transition: all 0.3s;
+  cursor: pointer;
+  text-align: center;
+  /*background-color: transparent;*/
+  /*color: inherit;*/
+  border: none;
+}
+
+.stk-button:hover {
+  transition: all 0.3s;
+  color: #89e5d3;
+  border-color: #89e5d3;
+}
